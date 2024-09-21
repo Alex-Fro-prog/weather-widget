@@ -1,0 +1,90 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-widget {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 400px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .weather-info img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-info div {
+    margin-top: 10px;
+  }
+  
+  .weather-widget h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .weather-widget p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .weather-widget form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather-widget input {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    width: 180px;
+  }
+  
+  .weather-widget button {
+    padding: 10px 20px;
+    font-size: 1.2em; 
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .weather-widget button:hover {
+    background-color: #45a049;
+  }
+  
+  .geo-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .geo-button:hover {
+    background-color: #0056b3;
+  }
